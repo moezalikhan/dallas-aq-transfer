@@ -1,0 +1,31 @@
+pollutant,horizon,model,features,Dallas,Tarrant,Collin,Denton,gap Tarrant %,gap Collin %,gap Denton %,avg gap %
+ozone,1,Linear Regression,no weather,8.52,8.7,9.85,9.47,2.05,15.61,11.06,9.57
+ozone,1,Linear Regression,with weather,8.57,8.64,9.6,9.12,0.83,12.04,6.48,6.45
+ozone,1,Persistence,none,9.22,9.35,10.88,10.62,1.39,18.05,15.17,11.54
+ozone,1,XGBoost,no weather,8.75,8.85,10.22,9.88,1.13,16.84,12.95,10.31
+ozone,1,XGBoost,with weather,8.81,8.74,9.66,9.11,-0.86,9.59,3.44,4.06
+ozone,7,Linear Regression,no weather,11.84,11.89,12.62,11.9,0.44,6.57,0.49,2.5
+ozone,7,Linear Regression,with weather,11.89,11.93,12.59,11.87,0.33,5.9,-0.1,2.04
+ozone,7,Persistence,none,14.31,14.82,15.35,14.42,3.54,7.23,0.78,3.85
+ozone,7,XGBoost,no weather,11.67,11.81,12.2,12.1,1.21,4.57,3.69,3.16
+ozone,7,XGBoost,with weather,11.97,12.29,12.12,11.8,2.63,1.25,-1.41,0.82
+ozone,14,Linear Regression,no weather,12.45,12.49,13.44,12.5,0.35,8.0,0.43,2.93
+ozone,14,Linear Regression,with weather,12.38,12.29,13.06,12.09,-0.67,5.53,-2.31,0.85
+ozone,14,Persistence,none,15.09,15.19,15.84,15.19,0.64,4.94,0.65,2.08
+ozone,14,XGBoost,no weather,12.07,12.25,12.93,12.07,1.52,7.19,0.02,2.91
+ozone,14,XGBoost,with weather,12.66,12.68,13.1,12.18,0.19,3.5,-3.76,-0.03
+pm25,1,Linear Regression,no weather,4.27,4.32,,4.84,1.34,,13.33,7.33
+pm25,1,Linear Regression,with weather,4.18,4.24,,4.77,1.39,,14.19,7.79
+pm25,1,Persistence,none,4.96,5.05,,5.7,1.98,,15.08,8.53
+pm25,1,XGBoost,no weather,4.28,4.37,,4.67,1.93,,9.04,5.49
+pm25,1,XGBoost,with weather,4.14,4.26,,4.72,3.08,,14.15,8.62
+pm25,7,Linear Regression,no weather,4.87,4.63,,5.16,-4.96,,5.97,0.5
+pm25,7,Linear Regression,with weather,4.81,4.65,,5.09,-3.37,,5.94,1.28
+pm25,7,Persistence,none,6.66,6.46,,7.0,-2.96,,5.09,1.07
+pm25,7,XGBoost,no weather,5.07,4.95,,5.31,-2.52,,4.61,1.05
+pm25,7,XGBoost,with weather,5.13,5.01,,5.37,-2.32,,4.65,1.16
+pm25,14,Linear Regression,no weather,4.87,4.6,,5.12,-5.62,,5.04,-0.29
+pm25,14,Linear Regression,with weather,4.75,4.57,,5.05,-3.82,,6.17,1.17
+pm25,14,Persistence,none,6.84,6.7,,6.94,-2.05,,1.5,-0.27
+pm25,14,XGBoost,no weather,4.94,4.93,,5.3,-0.22,,7.29,3.54
+pm25,14,XGBoost,with weather,5.17,4.98,,5.35,-3.79,,3.53,-0.13
